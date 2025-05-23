@@ -74,21 +74,11 @@ img {
   color: #434455;
 }
 
-.visually-hidden{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
+
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  
+
 }
 
 .header-container {
@@ -120,11 +110,14 @@ img {
 }
 
 .header-menu-list {
+  
   display: flex;
   gap: 40px;
 }
 
 .header-menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -199,8 +192,22 @@ img {
 }
 
 .about {
-  padding: 120px 156px 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .about-list {
   display: flex;
   gap: 24px;
