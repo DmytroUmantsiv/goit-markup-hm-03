@@ -196,7 +196,7 @@ img {
   padding-bottom: 120px;
 }
 
-.visually-hidden {
+/**.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -207,7 +207,7 @@ img {
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
-}
+}**/
 
 .about-list {
   display: flex;
