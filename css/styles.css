@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   color: #434455;
   background-color: #ffffff;
 }
@@ -40,7 +39,6 @@ img {
   display: block;
 }
 
-
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -49,6 +47,7 @@ img {
 }
 
 .section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -58,6 +57,7 @@ img {
 }
 
 .list-subtitle {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -74,11 +74,10 @@ img {
   color: #434455;
 }
 
-
-
 .header {
   border-bottom: 1px solid #e7e9fc;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -87,8 +86,6 @@ img {
 }
 
 .header-navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
@@ -102,7 +99,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .header-logo .accent {
@@ -110,14 +106,11 @@ img {
 }
 
 .header-menu-list {
-  
   display: flex;
   gap: 40px;
 }
 
 .header-menu-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -253,8 +246,7 @@ img {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px
+  width: 264px;
   height: 380px;
 }
 
@@ -269,11 +261,11 @@ img {
   text-align: center;
 }
 
-.team-item-profession{
+.team-item-profession {
   text-align: center;
 }
 
-.team-describe{
+.team-describe {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -284,7 +276,6 @@ img {
 }
 
 .portfolio-title {
-  font-weight: 500;
   margin-bottom: 72px;
 }
 
@@ -323,7 +314,6 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -342,6 +332,7 @@ img {
 }
 
 .footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
